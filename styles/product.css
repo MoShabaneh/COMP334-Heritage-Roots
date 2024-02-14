@@ -1,0 +1,33 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 50%;
+    height: 680px;
+}
+
+.product-details {
+    flex: 2;
+    padding-left: 20px;
+}

@@ -1,0 +1,44 @@
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+}
+th, td { 
+    border: 1px solid black; 
+    padding: 8px; text-align: left; 
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+.message {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.message a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
